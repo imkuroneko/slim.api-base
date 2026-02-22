@@ -1,0 +1,11 @@
+# Slim Framework .htaccess
+# Habilitar mod_rewrite
+RewriteEngine On
+
+# Configurar la base del directorio
+RewriteBase /
+
+# Redirigir todas las solicitudes al archivo public/index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ public/index.php [QSA,L]
