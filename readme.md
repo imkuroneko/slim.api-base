@@ -2,6 +2,8 @@
 
 Proyecto profesional de API REST con todas las buenas prácticas de seguridad y arquitectura.
 
+> **Base armada con Claude Haiku 4.5**; se irán ajustando detalles según necesidad
+
 ## ✨ Características
 
 - **Slim Framework 4** - Micro framework PHP moderno
@@ -119,3 +121,4 @@ Ver detalles en [inicio_rapido.md](docs/inicio_rapido.md)
 - [Slim Framework Docs](https://www.slimframework.com/)
 - [JWT.io](https://jwt.io/)
 - [OWASP Security](https://owasp.org/)
+
